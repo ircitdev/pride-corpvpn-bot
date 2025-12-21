@@ -1,0 +1,27 @@
+# Telegram Bot Framework
+aiogram>=3.4.1
+
+# HTTP Requests
+requests>=2.31.0
+
+# Async HTTP
+aiohttp>=3.9.1
+
+# Payment Systems
+aiocryptopay>=0.4.0
+yookassa>=3.0.0
+
+# Database
+# For PostgreSQL (optional):
+# psycopg2-binary>=2.9.9
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+
+# QR Code generation
+qrcode[pil]>=7.4.2
+Pillow>=10.0.0
+
+# For server deployment
+paramiko>=3.4.0
