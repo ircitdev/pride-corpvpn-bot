@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh-copy-id:*)",
+      "Bash(ssh-keygen:*)",
+      "Bash(sshpass -p 'Qqqqq!1111' ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75 \"mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo ''ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDClfbGjCJd3DchmP86rJqeWukCltQT1YF44XUzV4qPZ user@WIN-51L901UGSMG'' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo ''SSH key added successfully''\")",
+      "Bash(expect -c \"\nspawn ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75\nexpect \"\"*password*\"\"\nsend \"\"Qqqqq!1111\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"mkdir -p ~/.ssh && chmod 700 ~/.ssh\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"echo ''ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDClfbGjCJd3DchmP86rJqeWukCltQT1YF44XUzV4qPZ user@WIN-51L901UGSMG'' >> ~/.ssh/authorized_keys\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"chmod 600 ~/.ssh/authorized_keys\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"echo ''Key added successfully''\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"exit\\\\r\"\"\nexpect eof\n\")",
+      "Bash(where:*)",
+      "Bash(choco install:*)",
+      "Bash(powershell -Command \"& {\n$key = ''ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDClfbGjCJd3DchmP86rJqeWukCltQT1YF44XUzV4qPZ user@WIN-51L901UGSMG''\n$pass = ''Qqqqq!1111''\necho $pass | ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75 \"\"mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo ''$key'' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo ''Done''\"\"\n}\")",
+      "Bash(ssh -o BatchMode=yes -o ConnectTimeout=10 root@91.132.163.75 \"echo ''SSH key auth works!'' && hostname\")",
+      "Bash(ls:*)",
+      "Bash(ssh:*)",
+      "Bash(powershell -Command \"echo ''Qqqqq!1111'' | ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75 ''mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL1x5oT9VVepK7hEPBCZoWAnHaJKc43drD7bg1vx3/yq >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && cat ~/.ssh/authorized_keys''\")",
+      "Bash(curl:*)",
+      "Bash(nc:*)",
+      "Bash(powershell -Command \"Test-NetConnection -ComputerName 91.132.163.75 -Port 51191\")",
+      "Bash(uuidgen:*)",
+      "Bash(base64:*)",
+      "Bash(git remote add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: PRIDE VPN Corporate Bot\n\n- Telegram bot for VPN access management with admin moderation\n- Integration with X-UI/3X-UI panel \\(VLESS + Reality\\)\n- Subscription aggregator with QR code generation\n- Access request system with admin approval workflow\n- Transliteration of Russian names for sub_id\n- Referral system with bonus days\n- Trial access functionality\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate Android app link to Happ\n\nChanged Android download link from v2rayNG to Happ:\n- handlers/menu.py\n- handlers/access_request.py\n- handlers/trial.py\n- bot_simple.py\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

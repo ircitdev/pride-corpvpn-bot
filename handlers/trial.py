@@ -173,7 +173,7 @@ async def get_trial(message: types.Message):
             [InlineKeyboardButton(text="👥 Пригласить друзей (+7 дней)", url=invite_link)],
             [InlineKeyboardButton(text="📖 Инструкция по настройке", web_app=WebAppInfo(url="https://telegra.ph/Podklyuchenie-VPN-dlya-Android-11-04"))],
             [
-                InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.v2ray.ang"),
+                InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.happproxy"),
                 InlineKeyboardButton(text="🍎 iOS", url="https://apps.apple.com/app/id6746188973")
             ],
             [

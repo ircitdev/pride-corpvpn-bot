@@ -102,7 +102,7 @@ async def get_vpn_handler(callback: CallbackQuery):
         ],
         [InlineKeyboardButton(text="📖 Инструкция", callback_data="instruction")],
         [
-            InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.v2ray.ang"),
+            InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.happproxy"),
             InlineKeyboardButton(text="🍎 iOS", url="https://apps.apple.com/app/happ/id6504287215")
         ],
         [InlineKeyboardButton(text="🔙 Назад", callback_data="back_to_menu")]

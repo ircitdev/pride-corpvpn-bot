@@ -56,7 +56,7 @@ async def start_command(message: Message):
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="🌐 Открыть подписку", url=sub_url)],
             [
-                InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.v2ray.ang"),
+                InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.happproxy"),
                 InlineKeyboardButton(text="🍎 iOS", url="https://apps.apple.com/app/id6746188973")
             ],
             [InlineKeyboardButton(text="❓ Помощь", callback_data="help")]
@@ -110,7 +110,7 @@ async def back_to_menu_handler(callback: types.CallbackQuery):
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="🌐 Открыть подписку", url=sub_url)],
             [
-                InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.v2ray.ang"),
+                InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.happproxy"),
                 InlineKeyboardButton(text="🍎 iOS", url="https://apps.apple.com/app/id6746188973")
             ],
             [InlineKeyboardButton(text="❓ Помощь", callback_data="help")]
@@ -150,7 +150,7 @@ async def help_handler(callback: types.CallbackQuery):
 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.v2ray.ang"),
+            InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.happproxy"),
             InlineKeyboardButton(text="🍎 iOS", url="https://apps.apple.com/app/id6746188973")
         ],
         [InlineKeyboardButton(text="🔙 Назад", callback_data="back_to_menu")]

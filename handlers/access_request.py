@@ -300,7 +300,7 @@ async def approve_access_handler(callback: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(inline_keyboard=[
                 [InlineKeyboardButton(text="🌐 Открыть подписку", url=sub_url)],
                 [
-                    InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.v2ray.ang"),
+                    InlineKeyboardButton(text="📱 Android", url="https://play.google.com/store/apps/details?id=com.happproxy"),
                     InlineKeyboardButton(text="🍎 iOS", url="https://apps.apple.com/app/id6746188973")
                 ]
             ])
