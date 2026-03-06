@@ -3,7 +3,7 @@
     "allow": [
       "Bash(ssh-copy-id:*)",
       "Bash(ssh-keygen:*)",
-      "Bash(sshpass -p 'Qqqqq!1111' ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75 \"mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo ''ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDClfbGjCJd3DchmP86rJqeWukCltQT1YF44XUzV4qPZ user@WIN-51L901UGSMG'' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo ''SSH key added successfully''\")",
+      "Bash(sshpass -p 'Qqq' ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75 \"mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo ''ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDClfbGjCJd3DchmP86rJqeWukCltQT1YF44XUzV4qPZ user@WIN-51L901UGSMG'' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo ''SSH key added successfully''\")",
       "Bash(expect -c \"\nspawn ssh -o StrictHostKeyChecking=accept-new root@91.132.163.75\nexpect \"\"*password*\"\"\nsend \"\"Qqqqq!1111\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"mkdir -p ~/.ssh && chmod 700 ~/.ssh\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"echo ''ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDClfbGjCJd3DchmP86rJqeWukCltQT1YF44XUzV4qPZ user@WIN-51L901UGSMG'' >> ~/.ssh/authorized_keys\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"chmod 600 ~/.ssh/authorized_keys\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"echo ''Key added successfully''\\\\r\"\"\nexpect \"\"*#*\"\"\nsend \"\"exit\\\\r\"\"\nexpect eof\n\")",
       "Bash(where:*)",
       "Bash(choco install:*)",
